@@ -69,3 +69,15 @@ ul {
     border-radius: 15%;
     text-align: center;
 }
+.homepage-box {
+    background-color: rgb(255, 41, 237);
+    color: white;
+    border-radius: 15%;
+    text-align: center;
+}
+.members-box {
+    background-color: rgb(109, 255, 41);
+    color: white;
+    border-radius: 15%;
+    text-align: center;
+}
