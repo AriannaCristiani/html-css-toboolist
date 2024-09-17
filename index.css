@@ -1,5 +1,6 @@
 html {
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(115, 170, 192);
 }
 
 # {
@@ -10,7 +11,8 @@ html {
 /* header */
 .main-header {
     background-color: white;
-    padding: 28px 12px;
+    max-width: 100%;
+    padding: 5px 22px;
     
     
 }
@@ -20,17 +22,18 @@ html {
 }
 
 .container {
-    max-width: 1024px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 600px;
+    font-size:200% ;
+    
+    
 }
 
 /* main */
 
-
-.blue-box {
-    background-color: rgb(51, 145, 145);
-    color: white;
-    border-radius: 15%;
-    text-align: center;
+.main-content {
+    padding: 42px 32px;
 }
 
 .add-section {
@@ -41,14 +44,27 @@ html {
     text-align: center;
 }
 
-.main-body {
-    background-color: white;
-    border: 40cm;
-    border-color: rgb(30, 80, 80);
+/* card */
+
+.card {
+background-color: white;
+border-radius: 10px;
+max-width: 600px;
+padding: 32px 32px;
+margin: 0 auto;
 }
+
+/* liste */
 
 ul {
     list-style: none;
+}
+
+.blue-box {
+    background-color: rgb(51, 145, 145);
+    color: white;
+    border-radius: 15%;
+    text-align: center;
 }
 
 .app-box {
@@ -80,4 +96,10 @@ ul {
     color: white;
     border-radius: 15%;
     text-align: center;
+}
+.green-flag {
+    color: green;
+}
+.red-x {
+    color: red;
 }
