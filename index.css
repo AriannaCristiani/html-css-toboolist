@@ -25,10 +25,12 @@ html {
 
 /* main */
 
-.add-task {
+
+.blue-box {
     background-color: rgb(51, 145, 145);
     color: white;
     border-radius: 15%;
+    text-align: center;
 }
 
 .add-section {
@@ -36,5 +38,34 @@ html {
     color: grey;
     border-radius: 15%;
     border: solid thin gray;
-    
+    text-align: center;
+}
+
+.main-body {
+    background-color: white;
+    border: 40cm;
+    border-color: rgb(30, 80, 80);
+}
+
+ul {
+    list-style: none;
+}
+
+.app-box {
+    background-color: rgb(125, 81, 228);
+    color: white;
+    border-radius: 15%;
+    text-align: center;
+}
+.recruiting-box {
+    background-color: rgb(81, 228, 137);
+    color: white;
+    border-radius: 15%;
+    text-align: center;
+}
+.mobile-box {
+    background-color: rgb(255, 133, 32);
+    color: white;
+    border-radius: 15%;
+    text-align: center;
 }
