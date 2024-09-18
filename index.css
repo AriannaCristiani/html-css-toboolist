@@ -3,17 +3,38 @@ html {
     background-color: rgb(115, 170, 192);
 }
 
-# {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+.container {
+    max-width: 1024;
+    margin: 0 auto;
+}
+
+/* logo */
+
+.logo {
+    margin-right: 10px;
+ }
+
+.app-name{
+    font-size: 32px;
+ }
+
+.logo
+.app-name {
+    vertical-align: middle;
+}
+     
+
 /* header */
+
 .main-header {
     background-color: white;
-    max-width: 100%;
-    padding: 5px 22px;
-    
+    padding: 20px 12px;
     
 }
 
@@ -21,14 +42,6 @@ html {
     vertical-align: middle;
 }
 
-.container {
-    background-color: white;
-    border-radius: 10px;
-    max-width: 600px;
-    font-size:200% ;
-    
-    
-}
 
 /* main */
 
