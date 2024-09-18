@@ -1,12 +1,16 @@
 html {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(115, 170, 192);
+    background-color: rgb(149, 196, 214);
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+ul {
+    list-style: none;
 }
 
 .container {
@@ -49,7 +53,7 @@ html {
 .card__header {
     padding-top: 12px;
     padding-bottom: 12px;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid rgb(149, 196, 214);
 }
 
 .card__body {
@@ -81,62 +85,67 @@ html {
     text-align: center;
 }
 
-/* card */
+/* Task */
 
-.card {
-background-color: white;
-border-radius: 10px;
-max-width: 600px;
-padding: 32px 32px;
-margin: 0 auto;
+.task {
+	margin-bottom: 8px;
 }
 
-/* liste */
-
-ul {
-    list-style: none;
+.task * {
+	margin-right: 8px;
 }
 
-.blue-box {
-    background-color: rgb(51, 145, 145);
-    color: white;
-    border-radius: 15%;
-    text-align: center;
+.task__icon,
+.task__category {
+	display: inline-block;
 }
 
-.app-box {
-    background-color: rgb(125, 81, 228);
-    color: white;
-    border-radius: 15%;
-    text-align: center;
+.task__icon {
+	border: 1px solid;
+	/* height: 32px; */
+	width: 24px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 22px;
 }
-.recruiting-box {
-    background-color: rgb(81, 228, 137);
-    color: white;
-    border-radius: 15%;
-    text-align: center;
+
+.task__icon.icon-check {
+	color: green;
 }
-.mobile-box {
-    background-color: rgb(255, 133, 32);
-    color: white;
-    border-radius: 15%;
-    text-align: center;
+
+.task__icon.icon-cross {
+	color: red;
 }
-.homepage-box {
-    background-color: rgb(255, 41, 237);
-    color: white;
-    border-radius: 15%;
-    text-align: center;
+
+.task__category {
+	line-height: 28px;
+	font-size: 12px;
+	color: white;
+	border-radius: 12px;
+	padding: 0 10px;
 }
-.members-box {
-    background-color: rgb(109, 255, 41);
-    color: white;
-    border-radius: 15%;
-    text-align: center;
+
+.task__category.category-editorial {
+	background-color: rgb(77, 109, 255);
 }
-.green-flag {
-    color: green;
+
+.task__category.category-website {
+	background-color: rgb(255, 109, 189);
 }
-.red-x {
-    color: red;
+
+.task__category.category-Q1goals {
+    background-color: rgb(187, 55, 248);
 }
+
+.task__category.category-recruiting {
+    background-color: rgb(40, 185, 204);
+}
+
+.task__category.category-mobile {
+    background-color: rgb(252, 130, 50);
+}
+
+.task__category.category-sales {
+    background-color: rgb(158, 252, 50);
+}
+
