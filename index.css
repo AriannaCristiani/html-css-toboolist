@@ -35,7 +35,31 @@ html {
 .main-header {
     background-color: white;
     padding: 20px 12px;
-    
+}
+
+/* card */
+
+.card {
+	background-color: white;
+	border-radius: 4px;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.card__header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.card__body {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.card__header,
+.card__body {
+    padding: 0px 32px;
 }
 
 .main-header .container *{
